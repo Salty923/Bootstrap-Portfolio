@@ -13,7 +13,7 @@ li{
 }
 
 header{
-	height: 60px;
+	height: 40px;
 	margin:0px 0px 30px 0px;
 	padding: 0;
 	background-color: #ffffff;
@@ -46,10 +46,9 @@ p{
 
 footer{
 	background-color: #666666;
-	height: 100px;
 	clear: both;
-	text-align: center;
 	border-top: solid #4aaaa5 8px;
+	margin-top: 50px;
 }
 
 input{
@@ -103,29 +102,29 @@ form{
 }
 
 .about{
-	margin: 0px 10px;
+	margin: 0px 10px 20px 10px;
 	padding: 10px 20px 10px 20px;
 }
 
 
 .selfie {
-	width: 250px;
-	height: 250px;
 	padding: 20px 20px 20px 20px;
 }
 
 .selfie img{
-	width: 100%;
-	border-radius: 30px;
+	max-width: 100%;
+	height: auto;
+	border-radius: 40px;
 }
 
 .bio{
 	padding: 10px 20px 20px 20px ;
+	margin-bottom: 50px;
 }
 
 .icon{
 	height: 70px;
-	width: 70px;
+	margin-bottom:15px;
 }
 
 .left {
