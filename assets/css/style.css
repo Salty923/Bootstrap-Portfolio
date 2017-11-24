@@ -1,40 +1,113 @@
 
 body{
-	background-image: url("../images/dust.png");
+
 	color: #777777;
 	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
-	margin:0;
-	display: flex;
-	flex-direction: column;
+}
+
+.navhead{
+	height: 80px;
+}
+
+.logo{
+	margin-top:5px;
+}
+
+#logo{
+	font-size: 50px;
+	background-color: black;
+	color: white;
+	border: solid 2px white;
+	border-radius: 50%;	
+	margin: 0px 0px;
+	line-height: 28px;
+	height: 70px;
+	width: 70px;
+	padding-top: 19px;
+	text-align: center;
+}
+
+.navauto{
+	margin: 0px auto;
+}
+
+.link{
+	font-size: 20px;
+	color: white;
+	text-decoration: underline;
+	padding-top: 5px;
+}
+
+.margin{
+	margin: 0px auto;
+}
+
+.icon{
+	height: 60px;
+	border: 2px solid white;
+	border-radius: 50%;
+	margin-top: 10px;
+}
+
+.main{
+	background: linear-gradient(to right, rgb(0, 0, 0), rgb(67, 67, 67));
+	height: 100vh;	
+}
+
+.name{
+	font-size: 60px;
+	margin-top: 20px;
+	font-family: 'Georgia', Times, "Times_New_Roman", serif;
+}
+
+.learn{
+	font-size: 45px;
+	border:none;
+}
+
+.next {
+  position:absolute;
+  bottom:0;
+  left:50%;
+  margin-left:-36px;
+  cursor:pointer;
+  font-size:400%;
+}
+
+.about-icon{
+	height: 80px;
+	display: block;
+	margin: 20px auto;
+}
+
+.title{
+	color: black;
+	font-size: 30px;
+	border-bottom: 1px solid black;
+}
+
+section{
+	height: 100vh;
 }
 
 li{
-	color: #777777;
+	color: white;
 }
 
 header{
-	height: 40px;
-	margin:0px 0px 30px 0px;
-	padding: 0;
-	background-color: #ffffff;
-	border-radius: 1px;
+	height: 80px;
+	background: linear-gradient(to right, rgb(0, 0, 0), rgb(67, 67, 67));
 }
 
 h1{
 	font-size: 28px;
-	border-bottom:solid #cccccc 2px;
-	color: #4aaaa5;
-	background-color: #ffffff;
+	color: white;
 	font-family: 'Georgia', Times, "Times_New_Roman", serif;
-	margin-top: 0;
 }
 
 h2{
 	font-size: 22px;
 	border-bottom:solid #cccccc 1px;
-	font-size: 22px;
-	color: #4aaaa5;
-	background-color: #ffffff;
 	font-family: 'Georgia', Times, "Times_New_Roman", serif;
 	margin-top: 0;
 }
@@ -45,9 +118,8 @@ p{
 }
 
 footer{
-	background-color: #666666;
+	background: linear-gradient(to right, rgb(0, 0, 0), rgb(67, 67, 67));
 	clear: both;
-	border-top: solid #4aaaa5 8px;
 	margin-top: 50px;
 }
 
@@ -81,25 +153,12 @@ form{
 	border:solid 1px grey;
 }
 
-.top{
-	width: 1130px;
-}
+
 
 .clear{
 	clear: both;
 }
 
-#logo{
-/*	height: 60px;*/
-	font-size: 30px;
-/*	float: left;*/
-	background-color: #4aaaa5;
-	color: #ffffff;
-	/*padding: 10px 20px 20px 20px;*/
-	border-radius: 5px;	
-	margin: 0px 0px;
-	line-height: 28px;
-}
 
 .about{
 	margin: 0px 10px 20px 10px;
@@ -108,13 +167,14 @@ form{
 
 
 .selfie {
-	padding: 20px 20px 20px 20px;
+	padding: 50px 20px 20px 20px;
 }
 
 .selfie img{
 	max-width: 100%;
-	height: auto;
-	border-radius: 40px;
+	height: 300px;
+	border-radius: 50%;
+	filter: grayscale(100%);
 }
 
 .bio{
@@ -122,10 +182,7 @@ form{
 	margin-bottom: 50px;
 }
 
-.icon{
-	height: 70px;
-	margin-bottom:15px;
-}
+
 
 .left {
 	float: left;
@@ -146,11 +203,6 @@ form{
 
 .submit:hover{
 	background-color: green;
-}
-
-.text_center{
-	text-align: center;
-	padding:10px;
 }
 
 .foot{

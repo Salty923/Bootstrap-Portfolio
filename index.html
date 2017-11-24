@@ -1,71 +1,113 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>Scott Saltzman</title>
 	<meta charset="utf-8">
+
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 	
 <!-- 	Name and Navigation Bar-->	
 <header>
 	<!--full with navigation bar default -->
-	<nav class="navbar navbar-default">
+	<nav class="navhead">
 		<!-- Container centering and auto margin-->
 		<div class="container">
 			<!--container for name or logo navbar outside of container to span full-->
-			<div class="navbar-header">
-				<h1 class="navbar-brand text_center" id="logo">Scott Saltzman</h1>
+			<div class="row navhead">
+				<!--Used Rows and columns instead of traditional nav for better control of spacing-->
+				<div class="col-md-1 col-sm-1 col-xs-1">
+					<div class="logo">
+						<!--Use SVG for logo and rotate 45 deg and trations plumb when hover-->
+						<h1 id="logo"><a href="#">SS</a></h1>
+					</div>
+				</div>
+				<!--Nav links centered for socail links right-->
+				<div class="col-md-8 col-sm-6 col-xs-5 pull-left navhead">
+					<div>
+						<ul class="nav navbar-nav navhead text-center" id="navauto"> 
+							<li class="link"><a href="index.html">About</a></li>
+							<li class="link"><a href="Portfolio.html">Portfolio</a></li>
+							<li class="link"> <a href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-3 col-xs-hidden navhead pull-left">
+					<div class="row text_center">
+						<div class="col-md-4 col-sm-4">
+							<a class="social" href="https://github.com/Salty923" target="new"><img class="icon" alt="github logo" src="assets/images/gh.svg"></a> 
+						</div>
+						<div class="col-md-4">
+							<a class="social" href="https://www.linkedin.com/in/scott-saltzman-33949b56/" target="new"><img class="icon" alt="linkedin logo" src="assets/images/li.svg"></a> 
+						</div>
+						<div class="col-md-4">
+							<a class="social" href="https://twitter.com/saltzman_scott" target="new"><img class="icon" alt="twitter logo" src="assets/images/tw.svg"></a> 
+						</div>
+					</div>
+				</div>						
 			</div>
-			<!--Container for navigation links-->
-			<div>
-				<ul class="nav navbar-nav navbar-right"> 
-					<li><a href="index.html">
-						About</a>
-					</li>
-					<li><a href="Portfolio.html">
-						Portfolio</a>
-					</li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-			</div>			
 		</div>
 	</nav>
 </header>
 
+<div class="main">
 <main class="container">
 	<div class="row">
-		<div class="col-md-8 rad-border white">
-			<h1 class="about">About Me</h1>
-			<div class="selfie pull-left">	
-				<img alt="Photo Scott Saltzman" src="assets/images/me2.jpg">
+		<div class="col-md-12">
+				<div class="selfie text-center">	
+				<img alt="Photo Scott Saltzman" src="assets/images/me.jpg">
+				<h1 class="name">Scott Saltzman</h1>
+				<h2 class="learn">Learn More</h2>
+				<div class="next"></div>
 			</div>
+		</div>
+	</div>
+</main>
+</div>
+
+<section>
+	<div class="row">
+		<div class="col-md-3">
+			<h1 class="text-center title">Coder</h1>
+			<img class="about-icon" src="assets/images/html5.png">
+			<img class="about-icon" src="assets/images/css3.png">
+			<img class="about-icon" src="assets/images/javascript.png">
+			<img class="about-icon" src="assets/images/nodejs.png">
+			<img class="about-icon" src="assets/images/react.png">
+			<img class="about-icon" src="assets/images/github2.png">
+		</div>
+		<div class="col-md-6">
+			<h1>About Me</h1>
 			<div class="bio">
 				<p>Currently I am working as a Technical Project Manager at Judlau Contracting.  Prior to employment with Judlau, I owned and operated a small tech company specializing in 3d modeling for the automation heavy machinery.  In the evenings, I attend school at Northwestern University to pursue a career in computer programing. Outside of work and school, I volunteer with Team Rubicon responding to natural disasters around the United States. I also sit on the Illinois Tollway 3d Design Standards Board of review to help integrate 3d models into the construction process. My favorite hobbies are fishing, hiking and building websites. A Weird fact about me... I was born with 11 fingers. 
 				</p>
-		</div>
-
-		</div>
-		<div class="col-md-3 rad-border white pull-right">
-			<h1 class="text_center">Connect with Me</h1>
-			<div class="row">
-				<div class="col-md-4">
-					<a class="social" href="https://github.com/Salty923" target="new"><img class="icon" alt="github logo" src="assets/images/github.png"></a> 
-				</div>
-				<div class="col-md-4">
-					<a class="social" href="https://www.linkedin.com/in/scott-saltzman-33949b56/" target="new"><img class="icon" alt="linkedin logo" src="assets/images/linkedin.png"></a> 
-				</div>
-				<div class="col-md-4">
-					<a class="social" href="https://twitter.com/saltzman_scott" target="new"><img class="icon" alt="twitter logo" src="assets/images/twitter.png"></a> 
-				</div>
 			</div>
 		</div>
-	</div>							
-</main>
+		<div class="col-md-3">
+			<h1 class="text-center title">Tecnical Enginner</h1>
+			<img class="about-icon" src="assets/images/html5.png">
+			<img class="about-icon" src="assets/images/css3.png">
+			<img class="about-icon" src="assets/images/javascript.png">
+			<img class="about-icon" src="assets/images/nodejs.png">
+			<img class="about-icon" src="assets/images/react.png">
+			<img class="about-icon" src="assets/images/github2.png">
+		</div>
+	</div>			
+</section>
+
+
+			
+
+			
+
+							
+
 	
 <footer>
-		<p class="text_center">@Copyright 2017 Scott Saltzman</p>
+		<p class="text-center">@Copyright 2017 Scott Saltzman</p>
 </footer>
 
 </body>
