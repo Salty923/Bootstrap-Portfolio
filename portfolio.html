@@ -1,101 +1,147 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>Scott Saltzman</title>
 	<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 	
 <!-- 	Name and Navigation Bar-->	
 <header>
-		<div class="top">
-			<h1 id="logo">Scott Saltzman</h1>
-			<nav>
-				<ul class="nav_bar">
-					<li style="border-right: solid #777777 2px"><a href="index.html">About</a></li>
-					<li><a href="Portfolio.html">Portfolio</a></li>
-					<li style="border-left: solid #777777 2px"><a href="contact.html">Contact</a></li>
-				</ul>
-			</nav>
-		</div>	
-			
-	</header>
+	<!--full with navigation bar default -->
+	<nav class="navbar navbar-default">
+  		<div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    		<div class="navbar-header">
+     			 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+       		 		<span class="sr-only">Toggle navigation</span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+      			</button>
+      			<a class="navbar-brand" href="#">Brand</a>
+    		</div>
 
-<main>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+     			 <ul class="nav navbar-nav">
+        			<li class="active"><a href="#">About <span class="sr-only">(current)</span></a></li>
+        			<li><a href="#">Portfolio</a></li> 
+        			<li><a href="#">Contact</a></li>     
+     			</ul>
+     		 	<ul class="nav navbar-nav navbar-right">
+        			<li><a href="#">Link</a></li>
+        			
+         		</ul>
+   			 </div>
+   		</div>
+	</nav>
+</header>
 
-<div class="width">
-
-	<div class="content">
-	
-			<h1 class="about">Portfolio</h1>
-
-				
-					<div class="p1">
-						<div class="label">
-							<p>Time Sheet App.</p>
-						</div>
-							<img alt="Timesheet" src="assets/images/time.jpg">
-					</div>
-
-					<div class="p1">
-						<div class="label">
-							<p>Learning Management App</p>
-						</div>
-							<img alt="Medical Scope" src="assets/images/scope.jpeg">
-					</div>
-						
-					<div class="p1">
-						<div class="label">
-							<p>Productions App.</p>
-						</div>
-							<img alt="Dump truck" src="assets/images/truck.jpeg">
-					</div>
-
-					<div class="p1">
-						<div class="label">
-							<p>Judlau Training</p>
-						</div>
-							<img alt="Construction crane" src="assets/images/crane.jpeg">
-					</div>
-
-					<div class="p1">
-						<div class="label">
-							<p>Machine Elements</p>
-						</div>
-							<img alt="Machine cog" src="assets/images/melogo.jpg">
-					</div>
-
-		
-	</div>
-
-	<div class="connect">
-
-		<h2 class="text_center">Connect with Me</h2>
-
-		<div class="logos">
-			<div class="icon">
-				<a class="social" href="https://github.com/Salty923" target="new"><img alt="github logo" src="assets/images/github.png"></a> 
-			</div>
-
-			<div class="icon">
-				<a class="social" href="https://www.linkedin.com/in/scott-saltzman-33949b56/" target="new"><img alt="linkedin logo" src="assets/images/linkedin.png"></a> 
-			</div>
-		
-			<div class="icon">
-				<a class="social" href="https://twitter.com/saltzman_scott" target="new"><img alt="twitter logo" src="assets/images/twitter.png"></a> 
+<div class="main">
+	<main class="container scroll-box" id="page-1">
+		<div class="row">
+			<div class="col-md-12">
+					<div class="selfie text-center">	
+					<img alt="Photo Scott Saltzman" src="assets/images/me.jpg">
+					<h1 class="name">Scott Saltzman</h1>
+					<h2 class="learn">Learn More</h2>
+					<div class="next"></div>
+				</div>
 			</div>
 		</div>
-
-	</div>
+	</main>
 </div>
 
-</main>	
+<section class="container scroll-box" id="page-2">
+	<div class="row">
+		<div class="col-md-12">
+			<h1 class="text-center title">About Me</h1>
+		</div>
+		<div class="col-md-3 col-sm-2 hidden-xs text-center">
+			<h1 class="text-center title">Coder</h1>
+			<img class="about-icon" src="assets/images/html5.png">
+			<img class="about-icon" src="assets/images/css3.png">
+			<img class="about-icon" src="assets/images/javascript.png">
+		</div>
+		<div class="col-md-6 col-sm-8 col-xs-12">
+			<div class="bio">
+				<p>Currently I am working as a Technical Project Manager at Judlau Contracting.  Prior to employment with Judlau, I owned and operated a small tech company specializing in 3d modeling for the automation heavy machinery.  In the evenings, I attend school at Northwestern University to pursue a career in computer programing. Outside of work and school, I volunteer with Team Rubicon responding to natural disasters around the United States. I also sit on the Illinois Tollway 3d Design Standards Board of review to help integrate 3d models into the construction process. My favorite hobbies are fishing, hiking and building websites. A Weird fact about me... I was born with 11 fingers. 
+				</p>
+			</div>
+		</div>
+		<div class="col-md-3 col-sm-2 hidden-xs text-center">
+			<h1 class="text-center title">Technical Enginner</h1>
+			<img class="about-icon" src="assets/images/bentley.jpg">
+			<img class="about-icon" src="assets/images/c3d.jpg">
+			<img class="about-icon" src="assets/images/tbc.png">
+		</div>
+	</div>		
+</section>
+
+<section class="container scroll-box" id="page-3">
+	<div class="row">
+		<div class="col-md-12">
+			<h1 class="title text-center">Portfolio</h1>
+		</div>
+		<div class="col-md-12 text-center">
+			<img class="port-img" src="assets/images/time.jpg">
+			<img class="port-img" src="assets/images/truck.jpeg">
+			<img class="port-img" src="assets/images/scope.jpeg">
+			<img class="port-img" src="assets/images/crane.jpeg">
+			<img class="port-img" src="assets/images/melogo.jpg">
+			<img class="port-img" src="assets/images/github2.png">
+		</div>
+	</div>
+</section>
+
+<section class="container scroll-box" id="page-4">
+	<div class="row">
+		<div class="col-md-12">
+			<h1 class="text-center title">Contact</h1>
+		</div>
+		<div class="col-md-8">
+			<form>
+				Name<br>
+				<input type="text" placeholder="John Smith" name="">
+				<br>
+				Email<br>
+				<input type="text" placeholder="example@gmail.com"name="">
+				<br>
+				Message<br>
+				<textarea name="" rows="20" cols="40"></textarea>
+				<br>
+				<input class="submit" value="Submit" name="">
+			</form>
+		</div>
+		<div class="col-md-4 text-center">
+			<a href="https://github.com/Salty923" target="new"><img class="contact text-center" alt="github link" src="assets/images/gh.svg"></a> 
+
+		
+		</div>
+	</div>
+</section>
+
+
+			
+
+			
+
+							
+
 	
-	<footer class="stick">
-		<p class="foot">@Copyright 2017 Scott Saltzman</p>
-	</footer>
+<footer>
+		<p class="text-center">@Copyright 2017 Scott Saltzman</p>
+</footer>
+
+<!-- Latest compiled and minified JQuery -->
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"</script>
 
 </body>
 </html>
