@@ -183,8 +183,13 @@ section{
 	animation-timing-function: ease-out;
 }
 
-.port-img{
+.port-box{
 	height: 300px;
+	width: 300px;
+}
+
+.port-img{
+	width:100%;
 	padding: 30px;
 }
 
@@ -294,13 +299,15 @@ form{
 
 .label{
 	position: relative;
-	top: 240px;
+	top: -70px;
 	z-index: 200;
-	background-color: #4aaaa5;
-	height: 60px;
+	background-color: teal;
+	height: 100px;
 	color: #ffffff;
-	text-align: center;
 	padding-top: 0.5px;
+	font-size: 18px;
+	color: #C0C0C0;
+	width: 300px;
 }
 
 .stick{
@@ -337,11 +344,22 @@ form{
 
 	.icon{
 		height: 40px;
+	}
+
+	.port-box{
+	height: 250px;
+	width: 250px;
+	}
 }
 
-@media (min-width: 768px){
+@media (max-width: 768px){
 	#logo {
 	  margin: 0px auto;
+	}
+
+	.port-box{
+	height: 220px;
+	width: 220px;
 	}
 }
 
