@@ -5,6 +5,7 @@ html{
 body{
 	color: #C0C0C0;
 	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+	background: linear-gradient(to right, rgb(0, 0, 0), rgb(67, 67, 67));
 }
 
 nav{
@@ -157,6 +158,10 @@ section{
 	height: 100px;
 	display: block;
 	margin: 20px auto;
+
+	animation-name: moveUp;
+	animation-duration: 2s;
+	animation-timing-function: ease-out;
 }
 
 .title{
@@ -186,6 +191,22 @@ section{
 .contact{
 	height: 150px;
 	width: 150px;
+}
+
+.icon-side{
+	height: 70px;
+	border: 2px solid #C0C0C0;
+	border-radius: 50%;
+	margin: 10px auto;
+	display: block;
+}
+
+.icon-bot{
+	height: 70px;
+	border: 2px solid #C0C0C0;
+	border-radius: 50%;
+	margin: 10px 10px;
+	display: inline;
 }
 
 li{
@@ -294,6 +315,11 @@ form{
 	display: inline;
 }
 
+.navbar-nav>li>a {
+		padding-top: 30px;
+	}	
+
+
 
 @media (max-width: 991px){
 	.title{
@@ -311,7 +337,6 @@ form{
 
 	.icon{
 		height: 40px;
-	}
 }
 
 @media (min-width: 768px){

@@ -3,33 +3,52 @@
 <head>
 	<title>Scott Saltzman</title>
 	<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-
+	
 <header>
-		<div class="top">
-			<h1 id="logo">Scott Saltzman</h1>
-			<nav>
-				<ul class="nav_bar">
-					<li style="border-right: solid #777777 2px"><a href="index.html">About</a></li>
-					<li><a href="Portfolio.html">Portfolio</a></li>
-					<li style="border-left: solid #777777 2px"><a href="contact.html">Contact</a></li>
-				</ul>
-			</nav>
-		</div>	
-			
-	</header>
+	<nav class=" row navhead">
+  		<div class="container navhead">
+    		<div class="col-md-4 col-sm-5 col-xs-12" >
+      			<a class="navbar-brand" id="logo" href="#">Scott Saltzman</a>
+    		</div>
+    		<div class="col-md-4 col-sm-7 hidden-xs">
+     			 <ul class="nav navbar-nav navhead pull-left">
+        			<li><a class="link" href="index.html">About</a></li> 
+        			<li><a class="link" href="Portfolio.html">Portfolio</a></li> 
+        			<li><a class="link" href="contact.html">Contact</a></li>    
+     			</ul>
+   			 </div>
+   			 <div class="col-md-4 hidden-sm hidden-xs">
+   			 	<a href="#"><img class="icon pull-right" src="assets/images/gh.svg"></a>
+   			 	<a href="#"><img class="icon pull-right" src="assets/images/li.svg"></a>
+   			 	<a href="#"><img class="icon pull-right" src="assets/images/tw.svg"></a>
+   			 </div>
+   				 <div class="row">
+   			 		<div class="visible-xs col-xs-4 text-center">
+        				<a class="link navhead" href="#">About</a></li> 
+        			</div>
+        			<div class="visible-xs col-xs-4 text-center">
+        				<a class="link navhead" href="#">Portfolio</a>  
+        			</div>
+        			<div class="visible-xs col-xs-4 text-center">
+        				<a class="link navhead" href="#">Contact</a> 
+   			 		</div>
+   			 	</div>
+   			 </div>
+   		</div>
+	</nav>
+</header>
 
-<main>
-
-<div class="width">
-
-	<div class="content">
-
-			<h1 class="about">Contact</h1>
-
+<main class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<h1 class="text-center about">Contact</h1>
+		</div>
+		<div class="col-md-8">
 			<form>
 				Name<br>
 				<input type="text" placeholder="John Smith" name="">
@@ -38,42 +57,16 @@
 				<input type="text" placeholder="example@gmail.com"name="">
 				<br>
 				Message<br>
-				<textarea name="" rows="20" cols="60"></textarea>
+				<textarea name="" rows="10" cols="10"></textarea>
 				<br>
 				<input class="submit" value="Submit" name="">
-
 			</form>
-		
-
-		
-	</div>
-
-	<div class="connect">
-
-		<h2 class="text_center">Connect with Me</h2>
-
-		<div class="logos">
-			<div class="icon">
-				<a class="social" href="https://github.com/Salty923" target="new"><img alt="github logo" src="assets/images/github.png"></a> 
-			</div>
-
-			<div class="icon">
-				<a class="social" href="https://www.linkedin.com/in/scott-saltzman-33949b56/" target="new"><img alt="linkedin logo" src="assets/images/linkedin.png"></a> 
-			</div>
-		
-			<div class="icon">
-				<a class="social" href="https://twitter.com/saltzman_scott" target="new"><img alt="twitter logo" src="assets/images/twitter.png"></a> 
-			</div>
 		</div>
-
 	</div>
-</div>
-		
-
-	</main>
+</main>
 	
 	
-	<footer>
+	<footer class="text-center">
 		<p class="foot">@Copyright 2017 Scott Saltzman</p>
 	</footer>
 
